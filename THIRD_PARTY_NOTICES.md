@@ -8,6 +8,7 @@ O Jev Ad Pattern Lab adapta ideias e trechos do projeto aberto https://github.co
 - as **sete dimensões de classificação** (formato, gancho, ângulo, oferta, prova, objeção e chamada para ação), seus valores e as descrições em inglês enviadas ao Jev (`taxonomy.py`);
 - a lógica dos **achados** (grupo mínimo, fatia de 60+ dias contra a linha de base, comparador, facetas e exemplos distintos por família) e das **hipóteses de teste**, traduzidas para o português (`analytics.py`, `taxonomy.py`);
 - a ideia da **quebra do texto** em abertura, corpo e chamada (`analytics.py`).
+- a ideia da **reprodução animada** do arquivo, com parede, mapa e contadores num relógio único (`static/replay.js`); a implementação é própria.
 
 Não foram copiados: conector Apify, provedor OpenAI Decisions, modo de demonstração com dados fictícios, páginas de gravação, transcrição de fala nem o gerador de briefs. O código aqui é Python e foi reescrito; o projeto original é Node.js.
 

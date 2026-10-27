@@ -162,7 +162,23 @@ data/              Dados coletados (não versionado)
 
 ## Créditos e licença
 
-Parte da taxonomia, da lógica dos achados e da ideia de quebrar o texto em abertura, corpo e chamada foram adaptadas do projeto aberto [ad-pattern-lab](https://github.com/artemnovitckii/ad-pattern-lab), de Artem Novitckii, licença MIT. O código aqui foi reescrito em Python. Detalhes e o texto da licença original estão em `THIRD_PARTY_NOTICES.md`.
+### Repositório original
+
+Este projeto é uma adaptação do **ad-pattern-lab**, de Artem Novitckii.
+
+- Repositório: https://github.com/artemnovitckii/ad-pattern-lab
+- Autor: Artem Novitckii (https://novitckii.com)
+- Licença: MIT
+- Versão consultada: commit `456fd37b86174e8f612f48b43d52b0079914770e`, em 27/10/2026
+
+O que foi adaptado do original:
+
+- as sete dimensões de classificação (formato, gancho, ângulo, oferta, prova, objeção e chamada para ação), seus valores e as descrições enviadas ao Jev;
+- a lógica dos achados (grupo mínimo, fatia de 60 dias ou mais contra a linha de base, comparador, facetas e exemplos) e das hipóteses de teste, traduzidas para o português;
+- a ideia de dividir o texto do anúncio em abertura, corpo e chamada;
+- a ideia da reprodução animada, em que parede, mapa e contadores seguem um relógio único. A implementação aqui é própria.
+
+O original é em Node.js; o código deste repositório foi reescrito em Python. Não foram copiados o conector Apify, o provedor OpenAI Decisions, a demonstração com dados fictícios, as páginas de gravação, a transcrição de fala nem o gerador de briefs. O texto completo da licença original está em `THIRD_PARTY_NOTICES.md`.
 
 Também fazem parte do repositório o Alpine.js (MIT) e a fonte Inter (SIL OFL 1.1), com as licenças em `static/vendor/`.
 
