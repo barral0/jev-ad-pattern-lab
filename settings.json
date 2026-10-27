@@ -1,0 +1,17 @@
+{
+  "endpoint": "https://api.typesafe.ai/v1/systemone",
+  "model": "jev-1.14.0",
+  "input_usd_per_million": "0.042",
+  "output_usd_per_million": "0.0",
+  "budget_usd": "0.4999",
+  "reserve_max_input_tokens": 65536,
+  "batch_size": 3,
+  "concurrency": 2,
+  "review_confidence_below": 0.65,
+  "winner_proxy_min_days": 60,
+  "pricing_source": "https://docs.typesafe.ai/models.md",
+  "pricing_checked": "2026-10-27",
+  "images_source": "https://docs.typesafe.ai/images.md",
+  "rubric_version": "1.0.0",
+  "note": "Endpoint, documented pricing and safety bounds are pinned in code. Edit settings only within supported limits; doctor verifies agreement. No arbitrary-account completion guarantee under cap."
+}
