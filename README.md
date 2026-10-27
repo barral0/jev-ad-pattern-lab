@@ -184,6 +184,6 @@ Também fazem parte do repositório o Alpine.js (MIT) e a fonte Inter (SIL OFL 1
 
 O projeto é independente da Meta e da TypeSafe.
 
-Este repositório ainda não tem licença própria definida. Até que o autor escolha uma, todos os direitos permanecem reservados.
+O código deste repositório é distribuído sob a licença MIT (arquivo `LICENSE`): você pode usar, copiar, modificar e redistribuir, desde que mantenha o aviso de copyright e a licença. O software é oferecido sem garantia de qualquer tipo. Os componentes de terceiros citados acima mantêm as suas próprias licenças.
 
 Autor: Filipe Barral, barral.pro.
